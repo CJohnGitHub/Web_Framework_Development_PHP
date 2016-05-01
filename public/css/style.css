@@ -1,0 +1,118 @@
+@media only screen and (min-width: 768px) {
+
+    /*Start Wrapper*/
+    #wrapper {
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 20px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2368b2+0,2989d8+50,207cca+51,7db9e8+100 */
+        background: #2368b2; /* Old browsers */
+        background: -moz-linear-gradient(top,  #2368b2 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #2368b2 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #2368b2 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2368b2', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+    }
+
+    #banner img {
+        width: 100%;
+    }
+
+    #header{
+        width: 100%;
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f19a12+2,f19a12+51,f19a12+56,f19a12+99 */
+        background: #f19a12; /* Old browsers */
+        background: -moz-linear-gradient(top,  #f19a12 2%, #f19a12 51%, #f19a12 56%, #f19a12 99%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #f19a12 2%,#f19a12 51%,#f19a12 56%,#f19a12 99%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #f19a12 2%,#f19a12 51%,#f19a12 56%,#f19a12 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f19a12', endColorstr='#f19a12',GradientType=0 ); /* IE6-9 */
+
+    }
+    h1 {
+        text-align: center;
+        border: 1px solid black;
+        font-family: Arial, sans-serif;
+    }
+
+    #logInForm {
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 40%;
+        margin-bottom: 2%;
+    }
+
+
+    #addUserForm {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .user {
+        width: 100%;
+    }
+
+    .user input {
+        width: 20%;
+        margin-bottom: 1%;
+    }
+
+    .pass {
+        width: 100%;
+    }
+
+    .pass input {
+        width: 20%;
+        margin-bottom: 1%;
+        margin-left: 4px;
+    }
+
+    .buttons {
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .sumbit {
+        width: 10%;
+    }
+
+    .reset {
+        width: 10%;
+    }
+
+
+    .tables {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .tables h1 {
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .tables th{
+        width: 500px;
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px 0 5px 0;
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2368b2+0,2989d8+50,207cca+51,7db9e8+100 */
+        background: #fff; /* Old browsers */
+
+    }
+
+    .tables td {
+        width: 500px;
+        border: 1px solid black;
+        text-align: center;
+
+    }
+    footer {
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+}
+
+

@@ -1,0 +1,12 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+    <p>Welcome {{ username }}</p>
+
+    <p><a href="/logout"> LogOut</a></p>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+{% endblock %}

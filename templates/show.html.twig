@@ -1,0 +1,18 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+    <h1>One Great Detective Book</h1>
+
+    <p>
+        isbn = {{  book.id }}
+    </p>
+
+    <p>
+        title = {{  book.title }}
+    </p>
+
+    <p>
+        <img src="/images/{{ book.image }}">
+    </p>
+
+{% endblock %}

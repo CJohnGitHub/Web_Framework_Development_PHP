@@ -1,0 +1,14 @@
+{%  extends '_base.html.twig' %}
+
+{% block main %}
+<h1>Whoops!</h1>
+
+<p class="error">
+    {{ message }}
+
+    {% if message2 %}
+        <br>
+        {{ message2 }}
+    {% endif %}
+</p>
+{% endblock %}
